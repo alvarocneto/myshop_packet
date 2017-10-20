@@ -1,0 +1,39 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+dj-database-url = "*"
+dj-static = "*"
+django = "*"
+"django-bootstrap3" = "*"
+"flake8" = "*"
+gunicorn = "*"
+mccabe = "*"
+"psycopg2" = "*"
+pycodestyle = "*"
+pytz = "*"
+"static3" = "*"
+pytest = "*"
+django-taggit = "*"
+markdown = "*"
+django-haystack = "*"
+pysolr = "*"
+pillow = "*"
+python-social-auth = "*"
+social-auth-app-django = "*"
+sorl-thumbnail = "*"
+redis = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
