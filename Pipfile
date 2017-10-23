@@ -29,6 +29,7 @@ social-auth-app-django = "*"
 sorl-thumbnail = "*"
 redis = "*"
 celery = "*"
+flower = "*"
 
 
 [dev-packages]
