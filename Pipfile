@@ -28,6 +28,7 @@ python-social-auth = "*"
 social-auth-app-django = "*"
 sorl-thumbnail = "*"
 redis = "*"
+celery = "*"
 
 
 [dev-packages]
