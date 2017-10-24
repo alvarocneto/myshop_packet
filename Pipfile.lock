@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9340a25682ef288c8aa3fed1955c011403dee47dbc892d0372edbe8e386b5052"
+            "sha256": "4ae01cf6e4fb346dcdcd3580f4d028859315e8a3688a8fb963c4b56a7fc6d57c"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -117,6 +117,13 @@
                 "sha256:0bc91f635211e42de828ab92083e9f5369eda2e94adceb936ad5c0678a01c52e"
             ],
             "version": "==2.6.1"
+        },
+        "django-paypal": {
+            "hashes": [
+                "sha256:07ad999e25aef574de4b1e9b9f9551502a91c6913cd7eaca5a391ce34813201f",
+                "sha256:7c9a06de0997e1e3611f738f87d7a612439792774b46eac65ff76e76bce392f4"
+            ],
+            "version": "==0.4.1"
         },
         "django-taggit": {
             "hashes": [

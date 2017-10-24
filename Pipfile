@@ -30,6 +30,7 @@ sorl-thumbnail = "*"
 redis = "*"
 celery = "*"
 flower = "*"
+django-paypal = "*"
 
 
 [dev-packages]
