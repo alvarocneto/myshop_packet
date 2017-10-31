@@ -31,6 +31,9 @@ redis = "*"
 celery = "*"
 flower = "*"
 django-paypal = "*"
+django-parler = "*"
+django-localflavor = "*"
+django-rosetta = "*"
 
 
 [dev-packages]

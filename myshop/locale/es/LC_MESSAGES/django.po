@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-31 09:15-0200\n"
+"POT-Creation-Date: 2017-10-31 13:49-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\cart\forms.py:11 .\cart\templates\cart\detail.html:16
+msgid "Quantity"
+msgstr "Quantidade"
 
 #: .\cart\templates\cart\detail.html:6 .\cart\templates\cart\detail.html:10
 msgid "Your shopping cart"
@@ -29,10 +33,6 @@ msgstr "Imagem"
 #: .\cart\templates\cart\detail.html:15
 msgid "Product"
 msgstr "Produto"
-
-#: .\cart\templates\cart\detail.html:16
-msgid "Quantity"
-msgstr "Quantidade"
 
 #: .\cart\templates\cart\detail.html:17 .\cart\templates\cart\detail.html:40
 msgid "Remove"
@@ -67,6 +67,7 @@ msgid "Total"
 msgstr ""
 
 #: .\cart\templates\cart\detail.html:71
+#: .\shop\templates\shop\product\detail.html:23
 msgid "People who bought this also bought"
 msgstr ""
 
@@ -80,8 +81,82 @@ msgstr ""
 
 #: .\cart\templates\cart\detail.html:91
 msgid "Continue shopping"
-msgstr ""
+msgstr "Continue"
 
 #: .\cart\templates\cart\detail.html:92
 msgid "Checkout"
+msgstr "Encerrar"
+
+#: .\coupons\forms.py:6
+msgid "Coupon"
+msgstr "Cupom"
+
+#: .\myshop\settings.py:123
+msgid "English"
+msgstr "Inglês"
+
+#: .\myshop\settings.py:124
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: .\myshop\urls.py:11
+msgid "^cart/"
 msgstr ""
+
+#: .\myshop\urls.py:12
+msgid "^orders/"
+msgstr ""
+
+#: .\myshop\urls.py:13
+msgid "^payment/"
+msgstr ""
+
+#: .\myshop\urls.py:15
+msgid "^coupons/"
+msgstr ""
+
+#: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
+msgid "My shop"
+msgstr "Meu Shop"
+
+#: .\shop\templates\shop\base.html:18
+msgid "Language"
+msgstr "Lingua"
+
+#: .\shop\templates\shop\base.html:34
+#, fuzzy
+#| msgid "Your shopping cart"
+msgid "Your cart"
+msgstr "Seu carrinho"
+
+#: .\shop\templates\shop\base.html:36
+#, python-format
+msgid ""
+"\n"
+"                            %(total_items)s item%(total_items_plural)s, $"
+"%(total_price)s\n"
+"                        "
+msgstr ""
+
+#: .\shop\templates\shop\base.html:41
+msgid "Your cart is empty."
+msgstr "Seu carrinho está vazio"
+
+#: .\shop\templates\shop\product\detail.html:18
+msgid "Add to cart"
+msgstr "Adicionar"
+
+#: .\shop\templates\shop\product\list.html:6
+#: .\shop\templates\shop\product\list.html:24
+#, fuzzy
+#| msgid "Product"
+msgid "Products"
+msgstr "Produto"
+
+#: .\shop\templates\shop\product\list.html:11
+msgid "Categories"
+msgstr "Categorias"
+
+#: .\shop\templates\shop\product\list.html:14
+msgid "All"
+msgstr "Todos"
